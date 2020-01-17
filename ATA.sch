@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 3400 5900 3400
 $Comp
-L dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps:AD8605ARTZ-REEL7 U2
+L ATA-rescue:AD8605ARTZ-REEL7-dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps U2
 U 1 1 5DF80621
 P 6700 4750
 F 0 "U2" H 6800 4600 60  0000 L CNN

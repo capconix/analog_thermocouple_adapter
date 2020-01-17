@@ -1,6 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# ATA-rescue_AD8605ARTZ-REEL7-dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
+#
+DEF ATA-rescue_AD8605ARTZ-REEL7-dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps U 0 0 Y Y 1 F N
+F0 "U" -150 250 60 H V C CNN
+F1 "ATA-rescue_AD8605ARTZ-REEL7-dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps" 100 -200 60 H V L CNN
+F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" 200 300 60 H I L CNN
+F4 "AD8605ARTZREEL7CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "AD8605ARTZ-REEL7" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" 200 700 60 H I L CNN "Family"
+F8 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/analog-devices-inc/AD8605ARTZ-REEL7/AD8605ARTZREEL7CT-ND/751314" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC OPAMP GP 1 CIRCUIT SOT23-5" 200 1000 60 H I L CNN "Description"
+F11 "Analog Devices Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 1 0 0 -150 -100 -100 -100 N
+P 2 1 0 0 -150 100 -100 100 N
+P 2 1 0 0 -125 -75 -125 -125 N
+P 4 1 0 0 -200 200 -200 -200 200 0 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X V- 2 0 -200 100 U 50 50 1 1 W
+X ~ 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 -300 100 100 R 50 50 1 1 I
+X V+ 5 0 200 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x02_Male
 #
 DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
@@ -159,35 +188,6 @@ X SENSE 5 0 -300 150 U 50 40 1 1 P
 X ~ 6 400 0 100 L 50 50 1 1 O
 X +Vs 7 -100 300 100 D 50 50 1 1 W
 X +IN 8 -400 -100 100 R 50 40 1 1 I
-ENDDRAW
-ENDDEF
-#
-# dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps_AD8605ARTZ-REEL7
-#
-DEF dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps_AD8605ARTZ-REEL7 U 0 0 Y Y 1 F N
-F0 "U" -150 250 60 H V C CNN
-F1 "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps_AD8605ARTZ-REEL7" 100 -200 60 H V L CNN
-F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
-F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" 200 300 60 H I L CNN
-F4 "AD8605ARTZREEL7CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "AD8605ARTZ-REEL7" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" 200 700 60 H I L CNN "Family"
-F8 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/analog-devices-inc/AD8605ARTZ-REEL7/AD8605ARTZREEL7CT-ND/751314" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC OPAMP GP 1 CIRCUIT SOT23-5" 200 1000 60 H I L CNN "Description"
-F11 "Analog Devices Inc." 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-P 2 1 0 0 -150 -100 -100 -100 N
-P 2 1 0 0 -150 100 -100 100 N
-P 2 1 0 0 -125 -75 -125 -125 N
-P 4 1 0 0 -200 200 -200 -200 200 0 -200 200 f
-X ~ 1 300 0 100 L 50 50 1 1 O
-X V- 2 0 -200 100 U 50 50 1 1 W
-X ~ 3 -300 -100 100 R 50 50 1 1 I
-X ~ 4 -300 100 100 R 50 50 1 1 I
-X V+ 5 0 200 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
